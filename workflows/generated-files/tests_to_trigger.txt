@@ -1,2 +1,0 @@
-/test 4.20-stable-amd-gpu-operator-e2e-master
-/test 4.7-stable-amd-gpu-operator-e2e-master
