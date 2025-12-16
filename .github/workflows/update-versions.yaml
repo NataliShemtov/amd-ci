@@ -2,14 +2,14 @@ name: Check for new versions
 on:
   push:
     branches:
-      - main
+      - version-filtering-improvements
   schedule:
     - cron: '0 0 * * 0-5'
   workflow_dispatch:
     inputs:
       branch:
         description: 'Branch to check out'
-        default: 'main'
+        default: 'version-filtering-improvements'
         required: false
         type: string
       gpu_versions_to_test_count:
